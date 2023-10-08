@@ -6,3 +6,4 @@ waist = int(input('허리 둘레를 입력해주세요: '))
 RFM = 64 - (20 * (height / waist)) + 12 * s
 
 print('당신의 RFM은', s, ' 입니다.')
+
