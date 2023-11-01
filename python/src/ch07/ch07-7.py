@@ -5,7 +5,6 @@ l_text = text.lower()
 print(l_text)
 print('느낌표 갯수:', l_text.count('!'))
 
-
 def a(ch):
   if ch.isupper:
     count += 1
