@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 years = [i for i in range(1950, 2011, 10)]
 gdp = [67.0, 80.0, 257.0, 1686.0, 6505.0, 11865.3, 22105.3]
 
+# plt.bar(index, 눈금을 그릴 데이터)
 plt.bar(range(len(years)), gdp)
 
 plt.title('GDP per capita')
